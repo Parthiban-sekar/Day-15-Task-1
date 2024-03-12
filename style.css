@@ -1,0 +1,29 @@
+input{
+    width: 25rem !important;
+}
+.container-fluid{
+    background-image: url(https://i.pinimg.com/1200x/03/d9/d1/03d9d18c3531291c21d864bf8ebdd9fe.jpg);
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    color: rgb(255, 255, 255);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:900;
+    font-style: normal;
+  }
+#button{
+    display: flex;
+    justify-content:center;
+    column-gap: 5rem;
+}
+#title{
+    text-align: center;
+    color: white;
+}
+#description{
+    text-align: center;
+    color: white;
+}
